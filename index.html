@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MOHD ZAHEER UDDIN | AI ARCHITECT</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="canvas-container"></div>
+
+  <div class="noise-overlay"></div>
+
+  <div class="cursor-dot" data-cursor-dot></div>
+  <div class="cursor-outline" data-cursor-outline></div>
+
+  <nav class="glass-nav">
+    <div class="logo">QOFENO.<span class="highlight">AI</span></div>
+    <div class="nav-links">
+      <a href="#home" class="magnetic-link">Home</a>
+      <a href="#projects" class="magnetic-link">Work</a>
+      <a href="#skills" class="magnetic-link">Stack</a>
+      <a href="#contact" class="magnetic-link">Contact</a>
+    </div>
+    <button id="mobile-toggle" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <main id="smooth-wrapper">
+    <div id="smooth-content">
+
+      <section id="home">
+        <div class="hero-container">
+          <div class="hero-text">
+            <h2 class="pre-title">SYSTEM ONLINE // WELCOME</h2>
+            <h1 class="glitch-header" data-text="MOHD ZAHEER UDDIN">MOHD ZAHEER UDDIN</h1>
+            <div class="role-container">
+              <span class="role-prefix">> Target Role: </span>
+              <span class="typewriter" id="typewriter"></span><span class="cursor-blink">|</span>
+            </div>
+            <p class="hero-bio">
+              Constructing the bridge between complex algorithms and human experience. 
+              Specializing in <strong>Deep Learning</strong>, <strong>Predictive Models</strong>, and <strong>Interactive 3D Web</strong>.
+            </p>
+            
+            <div class="cta-group">
+              <a href="#projects" class="btn-3d primary">
+                <span>VIEW PROJECTS</span>
+              </a>
+              <a href="#contact" class="btn-3d secondary">
+                <span>CONTACT ME</span>
+              </a>
+            </div>
+          </div>
+          </div>
+
+        <div class="scroll-indicator">
+          <span>SCROLL TO EXPLORE</span>
+          <div class="mouse-icon">
+            <div class="wheel"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="section-header">
+          <h2 class="section-title">DEPLOYED_PROJECTS</h2>
+          <div class="line"></div>
+        </div>
+
+        <div class="project-gallery">
+          <div class="project-card glass-card tilt-effect">
+            <div class="card-glow"></div>
+            <div class="card-content">
+              <div class="tech-badge">PYTHON / ML</div>
+              <h3>House Price Prediction</h3>
+              <p>Advanced regression model utilizing Scikit-Learn to predict real estate values with high accuracy.</p>
+              <div class="card-links">
+                <a href="https://housepriceprediction-rqo8ykwgldxbpemwl6kvok.streamlit.app/" target="_blank" class="link-btn"><i class="fa-solid fa-play"></i> LIVE DEMO</a>
+                <a href="https://github.com/SohailKhan0525/HousePricePrediction" target="_blank" class="link-btn"><i class="fa-brands fa-github"></i> CODE</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card glass-card tilt-effect">
+            <div class="card-glow"></div>
+            <div class="card-content">
+              <div class="tech-badge">DATA SCIENCE</div>
+              <h3>Global Earthquake AI</h3>
+              <p>Seismic activity forecasting tool analyzing decades of geological data to assess risk factors.</p>
+              <div class="card-links">
+                <a href="#" class="link-btn disabled"><i class="fa-solid fa-lock"></i> MODEL ONLY</a>
+                <a href="https://github.com/SohailKhan0525/Global-Earthquake-Prediction" target="_blank" class="link-btn"><i class="fa-brands fa-github"></i> CODE</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card glass-card tilt-effect">
+            <div class="card-glow"></div>
+            <div class="card-content">
+              <div class="tech-badge">HEALTH TECH</div>
+              <h3>Heart Disease Prediction</h3>
+              <p>Diagnostic support tool using logistic regression to identify potential cardiac health risks.</p>
+              <div class="card-links">
+                <a href="https://heartdiseaseml-4zrcurmudxpfxbwygcuyyt.streamlit.app/" target="_blank" class="link-btn"><i class="fa-solid fa-play"></i> LIVE DEMO</a>
+                <a href="https://github.com/SohailKhan0525/HeartDiseaseML" target="_blank" class="link-btn"><i class="fa-brands fa-github"></i> CODE</a>
+              </div>
+            </div>
+          </div>
+          
+           <div class="project-card glass-card tilt-effect">
+            <div class="card-glow"></div>
+            <div class="card-content">
+              <div class="tech-badge">SYSTEMS</div>
+              <h3>Student Management</h3>
+              <p>Backend architecture for academic record keeping and student data processing.</p>
+              <div class="card-links">
+                <a href="https://studentmanagementproject-ulj54ytmcyj55upzakbzhn.streamlit.app/" target="_blank" class="link-btn"><i class="fa-solid fa-play"></i> LIVE DEMO</a>
+                <a href="https://github.com/SohailKhan0525/StudentManagementProject" target="_blank" class="link-btn"><i class="fa-brands fa-github"></i> CODE</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="section-header">
+          <h2 class="section-title">NEURAL_STACK</h2>
+          <div class="line"></div>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-block">
+            <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+            <h4>Python Mastery</h4>
+            <div class="progress-bar"><div class="progress" style="width: 100%"></div></div>
+          </div>
+          
+          <div class="skill-block">
+            <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
+            <h4>Machine Learning</h4>
+            <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+          </div>
+
+          <div class="skill-block">
+            <div class="skill-icon"><i class="fa-solid fa-square-root-variable"></i></div>
+            <h4>Linear Algebra</h4>
+            <div class="progress-bar"><div class="progress" style="width: 60%"></div></div>
+          </div>
+
+          <div class="skill-block">
+            <div class="skill-icon"><i class="fa-solid fa-cube"></i></div>
+            <h4>3D / WebGL</h4>
+            <div class="progress-bar"><div class="progress" style="width: 50%"></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="glass-panel contact-panel">
+          <div class="contact-left">
+            <h2>INITIALIZE<br>CONNECTION</h2>
+            <p>Ready to collaborate on AI infrastructure or interactive web experiences.</p>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/mohd-zaheer-uddin-166b3b356/" target="_blank">LINKEDIN</a>
+              <a href="https://github.com/SohailKhan0525" target="_blank">GITHUB</a>
+              <a href="https://www.instagram.com/sohailkhan0525/" target="_blank">INSTAGRAM</a>
+            </div>
+          </div>
+
+          <form id="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" required placeholder=" " />
+              <label for="name">Name / ID</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" required placeholder=" " />
+              <label for="email">Email Address</label>
+            </div>
+            <div class="form-group">
+              <textarea id="message" required placeholder=" "></textarea>
+              <label for="message">Transmission Data</label>
+            </div>
+            <button type="submit" class="submit-btn">
+              <span>TRANSMIT</span>
+              <div class="btn-bg"></div>
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <footer>
+        <p>© 2025 QOFENO LABS // MOHD ZAHEER UDDIN</p>
+      </footer>
+
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  
+  <script src="script.js"></script>
+</body>
+</html>
+
